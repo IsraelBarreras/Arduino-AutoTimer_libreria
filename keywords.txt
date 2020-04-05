@@ -1,0 +1,4 @@
+AutoTimer	KEYWORD1
+evaluate	KEYWORD2
+setDelayTime	KEYWORD2
+getDelayTime	KEYWORD2
