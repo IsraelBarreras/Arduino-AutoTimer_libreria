@@ -6,7 +6,8 @@
  
 #include <AutoTimer.h>
 
-void toggleLED(){
+void toggleLED()
+{
   
   if(digitalRead(13))
   {

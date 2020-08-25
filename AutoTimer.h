@@ -1,5 +1,5 @@
 /*
- * Creada por Israel Barreras
+ * by Israel Barreras
  * Licencia de uso libre
  * https://tecnoingenia.com
  */
@@ -18,11 +18,12 @@ class AutoTimer
     unsigned long delayTime;
     
   public:
-    AutoTimer(void(*f)(void), unsigned long d); //Constructor
-    AutoTimer(void(*f)(void), unsigned long d, boolean iW); //Constructor opción 2
-    boolean evaluate();
+    AutoTimer(void(*f)(void), unsigned long d);
+    AutoTimer(void(*f)(void), unsigned long d, boolean iW); 
+    boolean evaluate(void);
+    boolean run(void);
     boolean setDelayTime(unsigned long d);
-    unsigned long getDelayTime();
+    unsigned long getDelayTime(void);
     
 };
 
